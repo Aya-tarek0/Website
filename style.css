@@ -1,0 +1,41 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+    height: 700px;
+}
+
+.cardBackgroud{
+    background-color: rgb(12, 5, 1);
+}
+
+.textColor{
+    
+    color:rgba(var(--bs-secondary-bg-rgb));
+}
+.card1 :hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+.shad{
+ box-shadow: black 15px 15px;
+ border: black 2px;
+}
+.price :hover{
+    transform: scale(1.04);
+    transition: 1s;
+   
+
+}
+.logo{
+    font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+}
+.logo .dot {
+    color: rgb(0, 98, 255);
+    font-size: 50px;
+  }
